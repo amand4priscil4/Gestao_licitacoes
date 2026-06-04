@@ -41,7 +41,7 @@ Uma das etapas mais importantes do projeto foi a **análise exploratória dos da
 
 ### Mineração de dados dos e-mails
 
-Para entender os padrões de comunicação com os órgãos, foi realizada uma exportação dos e-mails do Outlook das três contas corporativas (`licita5@grupomoov.com`, `licita5@gwc.ind.br`, `licita5@seginfope.com.br`), resultando em um volume de **42.009 e-mails** brutos.
+Para entender os padrões de comunicação com os órgãos, foi realizada uma exportação dos e-mails do Outlook das três contas corporativas, resultando em um volume de **42.009 e-mails** brutos.
 
 Esses dados foram processados com **Python e Pandas no Google Colab**, cruzando os e-mails com a planilha de controle de tickets (10.419 registros). O resultado foi um mapeamento completo de **541 empenhos EGC ativos** com status inferido automaticamente a partir dos assuntos dos e-mails.
 
